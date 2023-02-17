@@ -12,4 +12,10 @@ public class InfixCalculatorTest {
     public void testAddition_NotEquals() {
         assertNotEquals(15, InfixCalculator.calculator('+', 5, 5));
     }
+
+    @Test
+    public void testSubtraction() {
+        assertEquals(0, InfixCalculator.calculator('-', 5, 5));
+    }
+
 }
