@@ -18,4 +18,9 @@ public class InfixCalculatorTest {
         assertEquals(0, InfixCalculator.calculator('-', 5, 5));
     }
 
+    @Test
+    public void testMultiplication() {
+        assertEquals(25, InfixCalculator.calculator('*', 5, 5));
+    }
+
 }
