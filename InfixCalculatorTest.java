@@ -23,4 +23,9 @@ public class InfixCalculatorTest {
         assertEquals(25, InfixCalculator.calculator('*', 5, 5));
     }
 
+    @Test
+    public void testDivision() {
+        assertEquals(1, InfixCalculator.calculator('/', 5, 5));
+    }
+
 }
