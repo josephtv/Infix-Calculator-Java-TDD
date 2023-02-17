@@ -5,6 +5,8 @@ public class InfixCalculator {
         switch (op) {
             case '+':
                 return int1 + int2;
+            case '-':
+                return int1 - int2;
             default:
                 System.out.println("Invalid operation (returns -1)");
         }
